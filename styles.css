@@ -1,83 +1,135 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: #f4f4f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
 }
 
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center; /* Center align headings */
+}
+
+/* Navigation Styles */
 nav {
     background-color: #6a0dad;
     padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
 }
 
-section {
-    padding: 50px;
-    text-align: center;
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
 }
 
+/* Home Section Styles */
 #home {
-    background-color: #e0b0ff;
-    color: #4b0082;
+    background-color: #e0b0ff; /* Light purple background */
+    text-align: center;
+    padding: 50px 20px;
 }
 
 .home-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 800px;
+    margin: auto;
 }
 
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 20px 0;
+    border: 5px solid #6a0dad; /* Border around the image */
+}
+
+.social-links {
+    margin: 20px 0;
 }
 
 .social-links a {
-    margin: 0 10px;
     font-size: 24px;
+    margin: 0 15px;
+    color: #6a0dad; /* Purple color for icons */
+    transition: transform 0.3s;
 }
 
+.social-links a:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+/* About Section Styles */
 #about {
-    background-color: #d8bfd8;
+    background-color: #d8bfd8; /* Light pink background */
+    padding: 50px 20px;
+    text-align: center;
 }
 
+#about p {
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center align the paragraph */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Skills Section Styles */
 #skills {
-    background-color: #e6e6fa;
+    background-color: #e6e6fa; /* Light lavender background */
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .skill {
     margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    width: 200px; /* Fixed width for skills */
 }
 
 .skill i {
-    font-size: 40px; /* Adjust size as needed */
-    margin-right: 15px; /* Space between icon and text */
+    font-size: 40px; /* Icon size */
     color: #6a0dad; /* Icon color */
+    display: block;
+    margin-bottom: 10px; /* Space between icon and text */
 }
 
+.skill h3 {
+    margin: 10px 0; /* Space above and below the skill title */
+}
+
+/* Contact Section Styles */
 #contact {
-    background-color: #dcdcdc;
+    background-color: #dcdcdc; /* Light gray background */
+    padding: 50px 20px;
+    text-align: center;
 }
 
+#contact p {
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center align the paragraph */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #6a0dad;
+    background-color: #6a0dad; /* Purple background */
     color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
