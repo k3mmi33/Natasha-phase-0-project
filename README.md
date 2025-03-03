@@ -6,9 +6,6 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 - [About Me](#about-me)
 - [Skills](#skills)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contact](#contact)
 - [License](#license)
 
@@ -30,11 +27,3 @@ I am Natasha Kemunto, an aspiring female in tech. I joined Moringa School to imp
 - JavaScript
 - AWS
 - Font Awesome (for icons)
-
-## Installation
-
-To view my portfolio locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
