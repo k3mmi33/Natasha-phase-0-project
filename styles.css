@@ -7,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Navigation Styles */
 nav {
     background-color: #333;
     color: #fff;
@@ -34,16 +35,16 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Home Section */
+/* Home Section Styles */
 #home {
-    background: url('path/to/your/background-image.jpg') no-repeat center center/cover;
-    height: 100vh;
+    background: url('path/to/your/background-image.jpg') no-repeat center center/cover; /* Add a background image */
+    height: 100vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #fff; /* White text for contrast */
 }
 
 .home-content h1 {
@@ -66,15 +67,25 @@ nav ul li a:hover {
     width: 150px;
     height: 150px;
     margin: 20px 0;
+    border: 3px solid #fff; /* Optional: Add a border to the profile picture */
+}
+
+.social-links {
+    margin-top: 20px;
 }
 
 .social-links a {
     margin: 0 10px;
-    font-size: 1.5em;
-    color: #fff;
+    font-size: 2em; /* Increase icon size */
+    color: #fff; /* White icons */
+    transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
-/* About Section */
+.social-links a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* About Section Styles */
 #about {
     padding: 50px 20px;
     text-align: center;
@@ -86,7 +97,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Skills Section */
+/* Skills Section Styles */
 #skills {
     padding: 50px 20px;
     text-align: center;
@@ -105,7 +116,7 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
-/* Contact Section */
+/* Contact Section Styles */
 #contact {
     padding: 50px 20px;
     text-align: center;
@@ -117,7 +128,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
